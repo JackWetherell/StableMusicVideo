@@ -1,6 +1,6 @@
 # Stable Music Video
 
-A live diffusion based music video system that generates real-time visuals in sync with whatever is currently playing on Spotify. It reads the current track: title, artist, lyrics, album art, and audio features ect, and uses this to continuously prompt a Stable Diffusion model, producing an ever-evolving visual stream that responds to the music.
+A live diffusion-based music video system that generates real-time visuals in sync with whatever is currently playing on Spotify. It reads the current track: title, artist, lyrics, album art, and audio features ect, and uses this to continuously prompt a Stable Diffusion model, producing an ever-evolving visual stream that responds to the music.
 
 ## How It Works
 
@@ -59,7 +59,7 @@ Parameters are updated live via OSC — prompts, seeds, guidance scale, delta, t
 ### TouchDesigner
 Receives the generated frames from StreamDiffusion via shared memory (Windows) or Syphon (macOS) and handles final visual composition, display, and any further post-processing.
 
-The TouchDesigner component file is `StreamDiffusionTD-0.2.3.tox`
+The TouchDesigner component file is `StreamDiffusionTD-0.2.3.tox`. Place that in the root directory when downloded from https://dotsimulate.com/tools.
 
 ## Credits
 
